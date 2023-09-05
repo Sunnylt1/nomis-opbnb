@@ -1,0 +1,10 @@
+{
+  "PolygonIdSettings": {
+    "ApiBaseUrl": "https://polygon.nomis.cc:3001/",
+    "IssuerBasicAuthUsername": "issuer",
+    "IssuerBasicAuthPassword": "",
+    "IssuerDid": "did:polygonid:polygon:main:2q2DKx52toqrwnykE8Ccq2R28YYGp1NcwxxQo2ASzf",
+    "NomisCredentialSchema": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json/nomisScore-v1.json",
+    "NomisCredentialType": "NomisScore"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "IPFSSettings": {
+    "Provider": "Web3Storage",
+    "ApiKey": "",
+    "ApiBaseUrl": "https://api.web3.storage/",
+    "IpfsGatewayUrlTemplate": "https://w3s.link/ipfs/{0}"
+  }
+}

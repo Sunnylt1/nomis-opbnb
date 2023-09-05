@@ -1,0 +1,25 @@
+{
+  "BlockscoutSettings": {
+    "ApiBaseUrls": {
+      "Ethereum": "https://eth.blockscout.com/api/v2/",
+      "Optimism": "https://optimism.blockscout.com/api/v2/",
+      "Gnosis": "https://gnosis.blockscout.com/api/v2/",
+      "Polygon": "https://polygon.blockscout.com/api/v2/",
+      "Base": "https://base.blockscout.com/api/v2/"
+    },
+    "ApiKeys": {
+      "Ethereum": [
+        ""
+      ],
+      "Optimism": [
+        ""
+      ],
+      "Gnosis": [
+        ""
+      ],
+      "Base": [
+        ""
+      ]
+    }
+  }
+}

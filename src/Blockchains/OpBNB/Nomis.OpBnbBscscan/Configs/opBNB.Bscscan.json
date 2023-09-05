@@ -1,0 +1,60 @@
+{
+  "OpBnbBscscanSettings": {
+    "ItemsFetchLimitPerRequest": 10000,
+    "ApiKeys": [
+      ""
+    ],
+    "ApiBaseUrl": "https://api-opbnb-testnet.bscscan.com/",
+    "MaxApiCallsPerSecond": 5,
+    "BlockchainDescriptors": {
+      "Testnet": {
+        "IsTestnet": true,
+        "IsEnabled": true,
+        "ChainId": 5611,
+        "ChainName": "opBNB Testnet",
+        "BlockchainName": "opBNB Testnet",
+        "BlockchainSlug": "opbnb",
+        "BlockExplorerUrls": [
+          "https://opbnbscan.com/"
+        ],
+        "NativeCurrency": {
+          "Id": "0x0000000000000000000000000000000000000000",
+          "Name": "tBNB",
+          "Symbol": "tBNB",
+          "Decimals": 18,
+          "LogoUri": "https://defiyield-static.s3.eu-central-1.amazonaws.com/bnb/0x0000000000000000000000000000000000000000/coinmarketcap.webp"
+        },
+        "Order": 1000,
+        "Icon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/bnb.png",
+        "LabelIcon": "https://defiyield-static.s3.eu-central-1.amazonaws.com/chains/bnb-label.png",
+        "IsHided": false,
+        "Type": "EVM",
+        "PlatformIds": {
+          "Coingecko": "binancecoin",
+          "Debank": "bsc",
+          "DefiLLama": "bsc"
+        },
+        "RPCUrls": [
+          "https://opbnb-testnet-rpc.bnbchain.org"
+        ],
+        "IsEVMCompatible": true,
+        "SBTData": {
+          "Finance": {
+            "ContractAddress": "0x46874eDd92d5A33216fe2e151759Ead76Ff43747",
+            "TokenName": "NMSS",
+            "Version": "0.8"
+          }
+        }
+      }
+    },
+    "GetFromCacheStatsIsEnabled": true,
+    "GetFromCacheStatsTimeLimit": "00:15:00",
+    "UseHttpClientLogging": false,
+    "UseHistoricalMedianBalanceUSD": {
+      "CommonV3": true
+    },
+    "MedianBalancePrecision": 0,
+    "MedianBalanceStartFrom": "30.00:00:00",
+    "MedianBalanceLastCount": 1000
+  }
+}
